@@ -1,5 +1,7 @@
 {
   "name": "chaos",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
