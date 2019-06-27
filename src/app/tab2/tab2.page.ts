@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { BarcodeScanner } from '@ionic-native/barcode-scanner/ngx';
 
 @Component({
   selector: 'app-tab2',
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class Tab2Page {
 
-  constructor() {}
+  constructor(private barcodeScanner: BarcodeScanner) {}
 
+  qrscanner() {
+
+    this.barcodeScanner.scan().then((data) => {
+      alert(data);
+    }).catch(err => {
+      alert(err.toString());
+    });
+  }
 }
