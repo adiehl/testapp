@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="de.noname.testapp2" version="0.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>C-1/4 Noname2</name>
+    <name>C-1/4 Noname3</name>
     <description>Chaotische Viertelstunde</description>
     <author email="adiehl@bitquadrat.de" href="http://www.noname-ev.de/">Andreas Diehl</author>
     <content src="index.html" />
